@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,400;0,600;0,800;1,200;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- /google fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/tailwind.config.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/bb174ee84f.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-slate-100 font-[Arvo]">
+    <div class="container">
+        <div class="navBar">
+            <nav
+                class="flex bg-slate-100 p-4 md:justify-around justify-between items-center fixed top-0 w-[100%] mx-auto z-50">
+                <div class="logo">
+                    <img src="images/logo-no-background.png" alt="Logo" width="232px">
+                </div>
+                <div class="unorderedList">
+                    <ul
+                        class="mainul lg:flex flex flex-col absolute right-0 gap-8 bg-slate-100 items-start justify-center p-5 mt-14 scale-y-0 transition-all ease-linear origin-top-left lg:fixed">
+                        <li><a class="font-bold hover:border-b-red-600 tracking-widest p-4 text-sm text-[#0080ff] hover:text-[#010C80] hover:font-bold rounded-lg transition-all ease-in hover:translate-x-5 "
+                                href="#Home">Home</a></li>
+                        <li><a class="font-bold hover:border-b-red-600 tracking-widest p-4 text-sm text-[#0080ff] hover:text-[#010C80] hover:font-bold rounded-lg transition-all ease-in hover:translate-x-5 "
+                                href="#About">About</a></li>
+                        <li><a class="font-bold hover:border-b-red-600 tracking-widest p-4 text-sm text-[#0080ff] hover:text-[#010C80] hover:font-bold rounded-lg transition-all ease-in hover:translate-x-5 "
+                                href="#Git">GitHub</a></li>
+                        <li><a class="font-bold hover:border-b-red-600 tracking-widest p-4 text-sm text-[#0080ff] hover:text-[#010C80] hover:font-bold rounded-lg transition-all ease-in hover:translate-x-5 "
+                                href="#Projects">Projects</a>
+                        </li>
+                        <li><a class="font-bold hover:border-b-red-600 tracking-widest p-4 text-sm text-[#0080ff] hover:text-[#010C80] hover:font-bold rounded-lg transition-all ease-in hover:translate-x-5 "
+                                href="#Game">Game</a></li>
+                        <li><a class="font-bold hover:border-b-red-600 tracking-widest p-4 text-sm text-[#0080ff] hover:text-[#010C80] hover:font-bold rounded-lg transition-all ease-in hover:translate-x-5 "
+                                href="#FrontendMentorIo">FrontendMentor
+                                Projects</a>
+                        </li>
+                        <li><a class="font-bold hover:border-b-red-600 tracking-widest p-4 text-sm text-[#0080ff] hover:text-[#010C80] hover:font-bold rounded-lg transition-all ease-in hover:translate-x-5 "
+                                href="#FullStackProjects">Full
+                                Stack
+                                Projects</a>
+                        </li>
+                    </ul>
+                    <div class="group-menu flex items-center justify-center cursor-pointer">
+                        <div class="menu-open">
+                            <i class="fa-solid fa-bars text-2xl" id="menu-open"></i>
+                        </div>
+                        <div class="menu-close">
+                            <i class="fa-solid fa-xmark text-3xl" id="menu-close"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="heroSection" id="#home">
+            <div class="hero-1">
+                <div class="left h-screen">
+                    <div
+                        class="flex items-center justify-center h-screen w-screen flex-col gap-6 bg-[url(/images/first.png)] bg-no-repeat bg-center backdrop-opacity-5 font-extrabold tracking-wider">
+                        <h2 class="text-4xl font-serif">The WebDev.
+                            HariKrishnasinh
+                            Zala</h2>
+                        <button
+                            class="border border-[#010c80] p-1 hover:bg-[#010c80] hover:text-white transition-all ease-linear text-xl tracking-wider rounded"
+                            href="https://github.com/Harikrishnasinh">
+                            <a href="https://github.com/Harikrishnasinh">GitHub</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            alert("Hello world");
+            $("#menu-close").addClass("opacity-0");
+            $("#menu-open").click(function () {
+                $(".mainul").removeClass("scale-y-0");
+                $(".mainul").addClass("scale-y-1");
+                $("#menu-open").addClass("opacity-0");
+                $("#menu-close").removeClass("opacity-0");
+                $("#menu-close").addClass("opacity-1");
+            })
+            $("#menu-close").click(function () {
+                $(".mainul").removeClass("scale-y-1");
+                $(".mainul").addClass("scale-y-0");
+                $("#menu-close").addClass("opacity-0");
+                $("#menu-open").removeClass("opacity-0");
+                $("#menu-open").addClass("opacity-1");
+            })
+        })
+    </script>
+</body>
+
+</html>
